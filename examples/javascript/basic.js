@@ -13,12 +13,7 @@ const API_URL = 'https://api.apiverve.com/v1/superheroname';
  */
 async function callSuperheroNameGeneratorAPI() {
   try {
-    // Query parameters
-    const params &#x3D; new URLSearchParams({
-            style: &#x27;dark&#x27;
-        });
-
-    const response = await fetch(`${API_URL}?${params}`, {
+    const response = await fetch(API_URL, {
       method: 'GET',
       headers: {
         'x-api-key': API_KEY
