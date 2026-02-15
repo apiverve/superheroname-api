@@ -11,8 +11,7 @@ namespace APIVerve.API.SuperheroNameGenerator
     public class SuperheroNameGeneratorQueryOptions
     {
         /// <summary>
-        /// Name style: dark, cosmic, elemental, tech, heroic, mystic
-        /// Example: dark
+        /// Name style
         /// </summary>
         [JsonProperty("style")]
         public string Style { get; set; }
