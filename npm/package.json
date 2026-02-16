@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/superheroname",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "Generate unique superhero names using dynamic templates and word combinations.",
   "main": "index.js",
   "types": "index.d.ts",
