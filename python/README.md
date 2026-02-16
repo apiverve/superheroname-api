@@ -217,8 +217,9 @@ from apiverve_superheronamegenerator.apiClient import SuperheronameAPIClient
 
 api = SuperheronameAPIClient("[YOUR_API_KEY]")
 
+query = { "style": "dark" }
+
 try:
-    query = { "style": "dark" }
     result = api.execute(query)
     print(result)
 finally:
