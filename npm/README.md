@@ -122,7 +122,7 @@ async function makeRequest() {
   "status": "ok",
   "error": null,
   "data": {
-    "name": "Shadow Bringer",
+    "name": "Lord Stalker",
     "style": "dark"
   }
 }
