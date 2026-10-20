@@ -18,7 +18,7 @@ servers:
 paths:
   /v1/superheroname:
     get:
-      summary: Generate Superhero Name
+      summary: Superhero Name Generator
       description: Generate a random superhero name
       operationId: superheroname
       parameters:
